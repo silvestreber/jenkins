@@ -11,7 +11,7 @@ public class Controlador {
 		return ""
 				+ "<h1 align=\"center\">WORKS!<h1>"
 				+ "<h3 align=\"center\">Probando Jenkins<h3>"
-				+ "<h4 align=\"center\">Prueba 2<h4>";
+				+ "<h4 align=\"center\">Prueba 3<h4>";
 	}
 
 }
