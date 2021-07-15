@@ -1,6 +1,7 @@
 version: '3'
 services:
   holamundo:
-    build: -t holamundo .
+    build: .
+    image: pruebajenkins_holamundo
     ports:
     - "7070:7070"
