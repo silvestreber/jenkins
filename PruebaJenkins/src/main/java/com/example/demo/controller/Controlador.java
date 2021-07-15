@@ -8,7 +8,7 @@ public class Controlador {
 	
 	@GetMapping("/")
 	public String prueba() {
-		return "<h1 align=\"center\">WORKS!<h1>";
+		return "<h1 align=\"center\">WORKS!<h1><h3 align=\"center\">Probando Jenkins<h3>";
 	}
 
 }
