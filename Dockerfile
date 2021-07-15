@@ -2,8 +2,8 @@ FROM centos
 
 RUN yum install -y java-11-openjdk
 VOLUME /tmp
-ADD target/JenkinsTest1.jar app.jar
+ADD target/pruebajenkins.jar app.jar
 
 RUN sh -c 'touch /app.jar'
-EXPOSE 5000
+EXPOSE 7070
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
