@@ -1,0 +1,6 @@
+version: '1'
+services:
+  holamundo:
+    build: .
+    ports:
+    - "7070:7070"
